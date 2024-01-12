@@ -1,0 +1,132 @@
+.videos-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .videos-section {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    .videos-section {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and  (max-width: 1024px) {
+    .videos-section {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  
+.video-preview {
+  font-family: Roboto;
+}
+
+.video-preview .video-thumbnail {
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+}
+
+.video-time {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  padding: 4px 6px;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.video-info {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 45px 1fr;
+}
+
+.video-preview .channal-icon {
+  margin-right: 10px;
+  position: relative;
+}
+
+.video-preview .channal-icon img {
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-preview .channal-icon:hover .subsribers-tooltip2 {
+  visibility: visible;
+}
+
+.video-preview .video-title {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.channel-name {
+  cursor: pointer;
+}
+
+.channel-name,
+.channel-stat {
+  margin-top: 0;
+  font-size: 12px;
+  color: rgb(104, 103, 103);
+}
+.channel-stat {
+  margin-top: 3px;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+
+.subsribers-tooltip2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 240px;
+  position: absolute;
+  bottom: -50px;
+  z-index: 3;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+  visibility: hidden;
+}
+.subsribers-tooltip2 a {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+}
+
+.subsribers-tooltip2 img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.subsribers-tooltip2 .tooltip-channel-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.subsribers-tooltip2 .tooltip-subscription-count {
+  margin-top: 4px;
+  font-size: 12px;
+  color: rgb(105, 103, 103);
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/videos.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-input" type="text" placeholder="Search" />
+        <button class="search-button" href="">
+          <img src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button" href="">
+          <img src="icons/voice-search-icon.svg" alt="" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-app-icon-container">
+          <img class="youtube-apps" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-container">
+          <img class="notifications" src="icons/notifications.svg" alt="" />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="profile" src="images/v-icon.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-item">
+        <img class="icon" src="icons/home.svg" alt="" />
+        <div class="description">Home</div>
+      </div>
+      <div class="sidebar-item">
+        <img class="icon" src="icons/explore.svg" alt="" />
+        <div class="description">Explore</div>
+      </div>
+      <div class="sidebar-item">
+        <img class="icon" src="icons/subscriptions.svg" alt="" />
+        <div class="description">Sybscriptions</div>
+      </div>
+      <div class="sidebar-item">
+        <img class="icon" src="icons/originals.svg" alt="" />
+        <div class="description">Originals</div>
+      </div>
+      <div class="sidebar-item">
+        <img class="icon" src="icons/youtube-music.svg" alt="" />
+        <div class="description">Youtube Music</div>
+      </div>
+      <div class="sidebar-item">
+        <img class="icon" src="icons/library.svg" alt="" />
+        <div class="description">Library</div>
+      </div>
+    </div>
+
+    <div class="videos-section">
+      <div class="video-preview">
+        <div class="video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+            ><img class="thumbnail" src="images/thumbnail-1.webp" alt=""
+          /></a>
+          <div class="video-time">5.00</div>
+        </div>
+        <div class="video-info">
+          <div class="channal-icon">
+            <a href="https://www.youtube.com/c/mkbhd">
+              <img src="images/channel-1.jpeg" alt="" />
+            </a>
+            <div class="subsribers-tooltip2">
+              <a href="https://www.youtube.com/c/mkbhd">
+                <img src="images/channel-1.jpeg" alt="" />
+              </a>
+              <div>
+                <div class="tooltip-channel-name">Marques Brownlee</div>
+                <div class="tooltip-subscription-count">15M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/mkbhd">
+              <p class="channel-name">Marques Brownlee</p>
+            </a>
+            <p class="channel-stat">3.4M views &middot; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+            ><img class="thumbnail" src="images/thumbnail-2.webp" alt=""
+          /></a>
+          <div class="video-time">5.00</div>
+        </div>
+        <div class="video-info">
+          <div class="channal-icon">
+            <a href="https://www.youtube.com/c/markiplier">
+              <img src="images/channel-2.jpeg" alt="" />
+            </a>
+            <div class="subsribers-tooltip2">
+              <a href="https://www.youtube.com/c/markiplier">
+                <img src="images/channel-2.jpeg" alt="" />
+              </a>
+              <div>
+                <div class="tooltip-channel-name">Marques Brownlee</div>
+                <div class="tooltip-subscription-count">15M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+            </a>
+            <a href="https://www.youtube.com/c/markiplier">
+              <p class="channel-name">Markiplier</p>
+            </a>
+            <p class="channel-stat">19M views &middot; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w"
+            ><img class="thumbnail" src="images/thumbnail-3.webp" alt=""
+          /></a>
+          <div class="video-time">5.00</div>
+        </div>
+        <div class="video-info">
+          <div class="channal-icon">
+            <a href="https://www.youtube.com/user/SSSniperWolf">
+              <img src="images/channel-3.jpeg" alt="" />
+            </a>
+            <div class="subsribers-tooltip2">
+              <a href="https://www.youtube.com/user/SSSniperWolf">
+                <img src="images/channel-3.jpeg" alt="" />
+              </a>
+              <div>
+                <div class="tooltip-channel-name">Marques Brownlee</div>
+                <div class="tooltip-subscription-count">15M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+            </a>
+            <a href="https://www.youtube.com/user/SSSniperWolf">
+              <p class="channel-name">SSSniperWolf</p>
+            </a>
+            <p class="channel-stat">12M views &middot; 1 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg"
+            ><img class="thumbnail" src="images/thumbnail-4.webp" alt=""
+          /></a>
+          <div class="video-time">5.00</div>
+        </div>
+        <div class="video-info">
+          <div class="channal-icon">
+            <a href="https://www.youtube.com/c/veritasium">
+              <img src="images/channel-4.jpeg" alt="" />
+            </a>
+            <div class="subsribers-tooltip2">
+              <a href="https://www.youtube.com/c/veritasium">
+                <img src="images/channel-4.jpeg" alt="" />
+              </a>
+              <div>
+                <div class="tooltip-channel-name">Marques Brownlee</div>
+                <div class="tooltip-subscription-count">15M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/veritasium">
+              <p class="channel-name">Veritasium</p>
+            </a>
+            <p class="channel-stat">18M views &middot; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw"
+            ><img class="thumbnail" src="images/thumbnail-5.webp" alt=""
+          /></a>
+          <div class="video-time">5.00</div>
+        </div>
+        <div class="video-info">
+          <div class="channal-icon">
+            <a href="https://www.youtube.com/c/CSDojo"
+              ><img src="images/channel-5.jpeg" alt=""
+            /></a>
+            <div class="subsribers-tooltip2">
+              <a href="https://www.youtube.com/c/CSDojo">
+                <img src="images/channel-5.jpeg" alt="" />
+              </a>
+              <div>
+                <div class="tooltip-channel-name">Marques Brownlee</div>
+                <div class="tooltip-subscription-count">15M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/CSDojo">
+              <p class="channel-name">CS Dojo</p>
+            </a>
+            <p class="channel-stat">519K views &middot; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="video-thumbnail">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+            ><img class="thumbnail" src="images/thumbnail-6.webp" alt=""
+          /></a>
+          <div class="video-time">5.00</div>
+        </div>
+        <div class="video-info">
+          <div class="channal-icon">
+            <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA"
+              ><img src="images/channel-6.jpeg" alt=""
+            /></a>
+            <div class="subsribers-tooltip2">
+              <a
+                href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA"
+              >
+                <img src="images/channel-6.jpeg" alt="" />
+              </a>
+              <div>
+                <div class="tooltip-channel-name">Marques Brownlee</div>
+                <div class="tooltip-subscription-count">15M subscribers</div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+              <p class="channel-name">MrBeast</p>
+            </a>
+            <p class="channel-stat">141M views &middot; 1 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

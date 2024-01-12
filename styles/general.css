@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    height: 5000px;
+    padding-top: 80px;
+    padding-left: 95px;
+    padding-right: 24px;
+    background-color: #F9F9F9;
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        padding-left: 258px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:link {
+    color: #000;
+}
+a:visited {
+    color: #000;
+}
